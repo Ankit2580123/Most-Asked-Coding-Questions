@@ -26,6 +26,6 @@ This repository contains a collection of the most frequently asked coding interv
 ## **Topics Covered**
 
 1. **Arrays**
-   - Example: Two Sum, Maximum Subarray
+   - Example: use arryas all builtin functions
 2. **Strings**
-   - Example: Longest Palindromic Substring, Anagram Problems
+   - Example: usestrings all builtin functions
