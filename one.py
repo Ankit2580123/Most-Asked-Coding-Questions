@@ -30,5 +30,5 @@ def palindrome(input):
 
 input1 = 121
 input2 = "aba"
-print(palindrome(input1))  # Should print True
-print(palindrome(input2))  # Should print True
+print(palindrome(input1))  # print True
+print(palindrome(input2))  # print True
