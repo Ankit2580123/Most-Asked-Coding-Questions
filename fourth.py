@@ -26,12 +26,12 @@ print(ans)
 
 
 
-# def reverse_string(input):
-#     # return input[::-1]
-#     ans= list(reversed(input))
-#     return ans
+def reverse_string(input):
+    # return input[::-1]
+    ans= list(reversed(input))
+    return ans
 
-# str=reverse_string("Ankit")
+str=reverse_string("Ankit")
 
 # ans2=""
 # for i in str:
