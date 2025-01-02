@@ -1,1 +1,1 @@
-print(e)
+ subject_marks=int(input("Enter the marks: "))

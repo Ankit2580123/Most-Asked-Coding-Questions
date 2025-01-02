@@ -1,4 +1,4 @@
-# Generate the the custom exception using file handling
+# Generate the the custom exception using Exception handling
 
 def custom_exception():
     array=[1,2,3,5,6]
