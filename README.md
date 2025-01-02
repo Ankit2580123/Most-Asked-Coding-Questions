@@ -26,6 +26,7 @@ This repository contains a collection of the most frequently asked coding interv
 ## **Topics Covered**
 
 1. **Arrays**
-   - Example: use arrays all builtin functions
 2. **Strings**
-   - Example: use strings all builtin functions
+3. **Generators**
+4. **File Handling**
+5. **Exception Handling**
