@@ -1,2 +1,1 @@
-
-#starting character of string
+print(ans)
