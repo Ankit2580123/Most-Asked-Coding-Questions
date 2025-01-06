@@ -10,7 +10,7 @@ def string_occurrence(str):
             freq[i]=1
     return freq 
 
-freq_count=string_occurrence("abcaba")
+freq_count=string_occurrence("geeksforgeeks")
 
 max_occ=0
 for key,value in freq_count.items():
