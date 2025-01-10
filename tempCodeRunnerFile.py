@@ -1,4 +1,1 @@
-if output==updated_input:
-    #     return True
-    # else:
-    #     return False
+print(a is b)
