@@ -45,3 +45,7 @@ while True:
         break
     print(i)  # 1,2
     i += 1    # 2,3
+
+#Tricky Interview Questions--07
+ans=min(max(False, -7.5, -7), 2, 1, 9)
+print(ans)
