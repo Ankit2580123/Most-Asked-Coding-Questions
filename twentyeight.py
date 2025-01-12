@@ -49,3 +49,16 @@ while True:
 #Tricky Interview Questions--07
 ans=min(max(False, -7.5, -7), 2, 1, 9)
 print(ans)
+
+#Tricky Interview Questions--08
+text = 'hello world'
+x = [i for i in text if i not in "aeiou"]   #output--> ['h','l', 'l',' ','w', 'r', 'l', 'd']
+print(x)
+
+#Tricky Interview Questions--09
+d = {1 : "A", 2 : "B", 3 : "C"}
+print(d.get(1, 4)) #output--> A
+
+print(2**(3**2))  #512
+print((2**3)**2)  #64
+print(2**3**2)    #512  it starts from right side as a precedence
