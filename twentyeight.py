@@ -77,8 +77,17 @@ print(a is b)  #False
 print(a is int(b))  #True
 print(c is str(a)) #False
 
+#Tricky Interview Questions--012
+a = True #1
+b = False #0
+print(a + 1) #2
+print(b * 10) #0
+
+#Tricky Interview Questions--013
 # a=10
 # b=5
 # d=9.5
 # c='a'
 # print(a+b+c)  # In Python, you cannot directly concatenate a string with an integer or a float without explicitly converting one type to match the other.
+
+#Tricky Interview Questions--014
