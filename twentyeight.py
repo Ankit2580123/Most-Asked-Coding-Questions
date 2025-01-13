@@ -59,6 +59,26 @@ print(x)
 d = {1 : "A", 2 : "B", 3 : "C"}
 print(d.get(1, 4)) #output--> A
 
+
+#Tricky Interview Questions--10
 print(2**(3**2))  #512
 print((2**3)**2)  #64
 print(2**3**2)    #512  it starts from right side as a precedence
+
+# mixed_list = [1, "two", 3.0, True]
+# print(mixed_list)
+
+
+#Tricky Interview Questions--011
+a = 10
+b = 10.0
+c = "10"
+print(a is b)  #False
+print(a is int(b))  #True
+print(c is str(a)) #False
+
+# a=10
+# b=5
+# d=9.5
+# c='a'
+# print(a+b+c)  # In Python, you cannot directly concatenate a string with an integer or a float without explicitly converting one type to match the other.
