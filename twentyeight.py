@@ -91,3 +91,33 @@ print(b * 10) #0
 # print(a+b+c)  # In Python, you cannot directly concatenate a string with an integer or a float without explicitly converting one type to match the other.
 
 #Tricky Interview Questions--014
+string = "interview"
+print(string[0:5])  #inter
+print(string[::-1]) #weivretni
+
+#Tricky Interview Questions--015
+numbers = [x**2 for x in range(5)]
+print(numbers)  #[0,1,4,9,16]
+
+#Tricky Interview Questions--015
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+print(set1 & set2)  #3
+print(set1 | set2)  #1,2,3,4,5
+
+#Tricky Interview Questions--016
+lst = [1, 2, 3]
+lst.append(4)  #[1,2,3,4]
+lst.insert(1, 5) #[1,5,2,3,4]
+lst.pop()       #[1,5,2,3]
+print(lst)
+
+#Tricky Interview Questions--017
+s = "Python"
+print(s[:3] * 2)  #pytpyt
+
+
+#Tricky Interview Questions--018
+nums = [1, 2, 2, 3, 4, 4]
+unique_squares = {x**2 for x in nums}  #{1,4,4,9,16,16 } SET Does not contain duplicates
+print(unique_squares)  #{1,4,9,16} Final answer
