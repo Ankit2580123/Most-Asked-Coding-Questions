@@ -1,1 +1,1 @@
-print(a is b)
+print(word)
