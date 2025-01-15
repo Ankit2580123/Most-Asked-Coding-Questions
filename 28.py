@@ -121,3 +121,27 @@ print(s[:3] * 2)  #pytpyt
 nums = [1, 2, 2, 3, 4, 4]
 unique_squares = {x**2 for x in nums}  #{1,4,4,9,16,16 } SET Does not contain duplicates
 print(unique_squares)  #{1,4,9,16} Final answer
+
+#Tricky Interview Questions--019
+import copy
+arr=[[1,2,3],[4,5,6]]
+shallow_copied=copy.copy(arr)
+deep_copied=copy.deepcopy(arr)
+arr[1][1]=100
+print(arr)
+print(shallow_copied)
+# print(deep_copied)
+
+#Tricky Interview Questions--20 What is the purpose of zip function
+a=[1,2,3,4]
+b=['a','b','c','d']
+zipped=[]
+for i in zip(a,b):
+    zipped.append(i)
+print(zipped)
+
+##Tricky Interview Questions--21 How do you merged two dict in python
+dict1={'a':1,'b':2}
+dict2={'c':1,'d':5}
+merged=dict1 | dict2
+print(merged)
