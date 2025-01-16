@@ -170,3 +170,20 @@ print(c is d)  #True  #return true because c and is literal and they creates onl
 print(c==d)     #True
 print(a is b) #False return false because list is mutable types
 print(a==b)   #True
+
+
+##Tricky Interview Questions--24
+# you need to shuffle the list items and also return random items in each functions calls
+from random import shuffle
+import random
+city=['Goa','Chandigarh','Jamshedpur','Patna','Ranchi','Bangalore','Pune','Hyderabad','Gurugram']
+
+def shuffle_city_names(city):
+    shuffle(city)  
+    return city
+
+def return_one_city_in_each_call(city):
+    ans=random.choices(city) #randomly selected one city and return list
+    return ''.join(ans)  #Converted list into string
+print(shuffle_city_names(city))
+print(f"City Name Randomly Selected: {return_one_city_in_each_call(city)}")
