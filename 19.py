@@ -10,6 +10,7 @@ dicts={
 #approach 1-->use pandas library
 series=pd.Series(dicts)
 sorted_series=series.sort_values()
+print(sorted_series)
 
 new_dict=sorted_series.to_dict()
 print(new_dict)

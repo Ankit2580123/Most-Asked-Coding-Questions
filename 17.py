@@ -3,6 +3,7 @@
 
 string="My Name is Ankit Kumar"
 new = string.split()
+print(new)
 new_reversed=[]
 def reverese_each_word(str_input):
 
@@ -10,14 +11,10 @@ def reverese_each_word(str_input):
         new_reversed.append(word[::-1])
 
     ans=' '.join(new_reversed)
+    print(ans)
     return ans
-    print(type(ans))
+    
 
     # return str_input[::-1]
-
-  
-            
-
-
 
 print("Reverse String words is: ",reverese_each_word(string))

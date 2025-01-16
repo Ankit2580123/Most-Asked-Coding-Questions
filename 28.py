@@ -145,3 +145,28 @@ dict1={'a':1,'b':2}
 dict2={'c':1,'d':5}
 merged=dict1 | dict2
 print(merged)
+
+##Tricky Interview Questions--22 Sort the dict based on the values
+
+obj={
+    'a':1,
+    'b':5,
+    'c':4,
+    'd':10,
+    'e':8
+}
+sort_dict_values=dict(sorted(obj.items(),key=lambda item: item[1]))
+sort_dict_keys=dict(sorted(obj.items(),key=lambda item: item[0]))
+
+print(sort_dict_values)
+print(sort_dict_keys)
+
+##Tricky Interview Questions--23 difference between is vs ==
+a=[1,2,3,4,5]
+b=[1,2,3,4,5]
+c=5
+d=5
+print(c is d)  #True  #return true because c and is literal and they creates only ones in memory
+print(c==d)     #True
+print(a is b) #False return false because list is mutable types
+print(a==b)   #True
